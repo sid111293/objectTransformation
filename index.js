@@ -10,6 +10,6 @@ const sourceData2 = {
     b2:12
 };
 
-console.log(`Target Data: ${JSON.stringify(prepareGenericPayload(sourceData1, "type1"))}`);
+console.log(`Target:Data: ${JSON.stringify(prepareGenericPayload(sourceData1, "type1"))}`);
 
-console.log(`Target Data: ${JSON.stringify(prepareGenericPayload(sourceData2, "type2"))}`);
+console.log(`Target:Data: ${JSON.stringify(prepareGenericPayload(sourceData2, "type2"))}`);
